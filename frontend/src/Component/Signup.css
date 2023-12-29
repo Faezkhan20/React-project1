@@ -1,0 +1,176 @@
+#signupyoutubescreen {
+    width: 100%;
+    height: auto;
+    border: 1px solid green;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIG3h1YSM8fuKrwZrrTbvJJXQiy5DIQxQFrakpN-VKUkXwwfr76rRgS2Np4hIQAaMMT74&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+#youtubeloginmain {
+    margin: auto;
+    width: 40%;
+    height: 500px;
+    border: 2px solid #3e2750;
+    margin-top: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0px 0px 1px 1px; */
+}
+
+.signupinputdiv {
+    /* border: 1px solid black; */
+    width: 55%;
+    height: 52px;
+    margin: auto;
+    margin-bottom: 13px;
+    position: relative;
+    margin-top: 20px;
+}
+
+#marginmain {
+    margin-top: 60px;
+}
+
+.signupinputdiv :nth-child(1) {
+    width: 100%;
+    height: 100%;
+    font-size: 16px;
+    border: 3px solid rgb(137, 169, 219);
+    outline: none;
+    border-radius: 10px;
+    /* border: none; */
+
+    background: rgb(241, 245, 251);
+    /* color: white; */
+}
+
+.signuplabel {
+    position: absolute;
+    top: 0.9rem;
+    left: 1.4rem;
+    cursor: text;
+    transition: top 100ms ease-in, left 100ms ease-in, font-size 100ms ease-in;
+    color: black;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.signupinputfocus:focus~.signuplabel,
+.signupinputfocus:not(:placeholder-shown).signupinputfocus:not(:focus)~.signuplabel {
+    top: -0.6rem;
+    left: 0.9rem;
+    font-size: 13px;
+    background: black;
+    color: white;
+}
+
+.signupinputfocus:focus {
+    border: 2px solid black;
+
+}
+
+#signupnext {
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    width: 83%;
+    margin: auto;
+    margin-top: 30px;
+
+
+
+
+}
+
+#signupnext :nth-child(1) {
+    width: 80px;
+    height: 100%;
+    border-radius: 5px;
+    /* border: 1px solid blue; */
+    background-color: pink;
+    font-weight: bold;
+    border: none;
+
+}
+
+#signupnext :nth-child(1):hover {
+    border: 1px solid purple;
+}
+
+.lastenglishdiv {
+    /* border: 1px solid red; */
+    margin: auto;
+    width: 29%;
+    height: 20px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+
+}
+
+#helpprivacyterm {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 12px;
+    height: fit-content;
+    align-self: center;
+
+}
+@media screen and (max-width: 768px) {
+    #youtubeloginmain {
+        width: 100%; /* Adjust width for smaller screens */
+        height: auto; /* Allow height to adjust according to content */
+    }
+
+    .signupinputdiv {
+        width: 95%;
+        height: 70px; /* Adjust input width */
+    }
+
+    #signupnext {
+        width: 90%; /* Adjust width for the signup next button */
+    }
+
+    .lastenglishdiv {
+        width: 70%; /* Adjust width for the container with English text */
+    }
+
+    #helpprivacyterm {
+        width: 40%; /* Adjust width for the container with help, privacy, and terms */
+    }
+    #elang{
+        margin-right: 10px;
+    }
+    #signupyoutubescreen{
+        height:1000px;
+    }
+    #signupnext{
+        /* width: 100%; */
+        /* margin: auto; */
+        border: 1px solid red;
+        font-weight: bold;
+        font-size: 20px;
+         align-self: center;
+         width: fit-content;
+         margin: auto;
+         font-size: 20px;
+         /* height: 70px; */
+         font-weight: bold;
+         margin-top: 20px;
+        
+     
+    }
+    .nextbuttton{
+        font-size: 18px;
+        font-weight: bold;
+       
+        
+    }
+    
+
+}
